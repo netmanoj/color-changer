@@ -4,9 +4,12 @@ import Color from 'color';
 const Box = ({ color, textColor }) => {
   let hexCode;
 
+  console.log('Received color:', color); // Log the color prop
+
   try {
     hexCode = Color(color).hex();
   } catch (error) {
+    console.error('Error converting color:', error); // Log the error for more details
     hexCode = 'Invalid color';
   }
 
