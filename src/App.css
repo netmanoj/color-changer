@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   font-family: 'Inconsolata', monospace;
-  background-color: #1e1e1e; /* Dark background */
+  background-color: #121212; /* Darker background for better contrast */
   color: #e0e0e0; /* Light text color */
   min-height: 100vh;
   display: flex;
@@ -15,16 +15,16 @@ input {
   padding: 10px;
   margin: 10px;
   font-size: 16px;
-  border: 2px solid #444; /* Darker border */
+  border: 2px solid #333; /* Darker border */
   border-radius: 5px;
   width: 250px;
-  background-color: #333; /* Input background color */
+  background-color: #1e1e1e; /* Slightly lighter input background */
   color: #e0e0e0; /* Input text color */
   transition: border-color 0.3s ease-in-out;
 }
 
 input:focus {
-  border-color: #66b2ff; /* Lighter focus border */
+  border-color: #82aaff; /* Lighter border color on focus */
   outline: none;
 }
 
@@ -33,20 +33,16 @@ button {
   font-size: 16px;
   cursor: pointer;
   margin: 10px;
-  background-color: #007bff; /* Button background color */
+  background-color: #6200ea; /* Primary button color */
   color: white;
   border: none;
   border-radius: 5px;
-  box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.2);
+  box-shadow: 0px 4px 10px rgba(98, 0, 234, 0.2); /* Match button color */
   transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 button:hover {
-  background-color: #0056b3; /* Darker button on hover */
-  box-shadow: 0px 6px 15px rgba(0, 123, 255, 0.3);
+  background-color: #3700b3; /* Darker shade for hover effect */
+  box-shadow: 0px 6px 15px rgba(98, 0, 234, 0.3); /* Darker shadow on hover */
 }
 
-button:hover {
-  background-color: #0056b3;
-  box-shadow: 0px 6px 15px rgba(0, 123, 255, 0.3);
-}
